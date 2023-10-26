@@ -15,6 +15,8 @@
 		5383E1B52AE9608600786F82 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5383E1B42AE9608600786F82 /* MainVC.swift */; };
 		5383E1B82AEA005100786F82 /* RepoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5383E1B72AEA005100786F82 /* RepoModel.swift */; };
 		5383E1BB2AEA062200786F82 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5383E1BA2AEA062200786F82 /* UIViewExtension.swift */; };
+		5383E1C02AEA105800786F82 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5383E1BF2AEA105800786F82 /* APIHelper.swift */; };
+		5383E1C32AEA141D00786F82 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5383E1C22AEA141D00786F82 /* RepoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		5383E1B42AE9608600786F82 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		5383E1B72AEA005100786F82 /* RepoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoModel.swift; sourceTree = "<group>"; };
 		5383E1BA2AEA062200786F82 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		5383E1BF2AEA105800786F82 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		5383E1C22AEA141D00786F82 /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +67,11 @@
 			children = (
 				5383E19D2AE9564100786F82 /* AppDelegate.swift */,
 				5383E19F2AE9564100786F82 /* SceneDelegate.swift */,
-				5383E1B42AE9608600786F82 /* MainVC.swift */,
+				5383E1BD2AEA102D00786F82 /* VC */,
+				5383E1C12AEA140300786F82 /* View */,
+				5383E1BC2AEA0FC300786F82 /* Model */,
 				5383E1B92AEA060900786F82 /* Extensions */,
-				5383E1B72AEA005100786F82 /* RepoModel.swift */,
+				5383E1BE2AEA103800786F82 /* Communications */,
 				5383E1A32AE9564100786F82 /* Main.storyboard */,
 				5383E1A62AE9564200786F82 /* Assets.xcassets */,
 				5383E1A82AE9564200786F82 /* LaunchScreen.storyboard */,
@@ -81,6 +87,38 @@
 				5383E1BA2AEA062200786F82 /* UIViewExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5383E1BC2AEA0FC300786F82 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5383E1B72AEA005100786F82 /* RepoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5383E1BD2AEA102D00786F82 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				5383E1B42AE9608600786F82 /* MainVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		5383E1BE2AEA103800786F82 /* Communications */ = {
+			isa = PBXGroup;
+			children = (
+				5383E1BF2AEA105800786F82 /* APIHelper.swift */,
+			);
+			path = Communications;
+			sourceTree = "<group>";
+		};
+		5383E1C12AEA140300786F82 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5383E1C22AEA141D00786F82 /* RepoTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,8 +192,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5383E1C02AEA105800786F82 /* APIHelper.swift in Sources */,
 				5383E1BB2AEA062200786F82 /* UIViewExtension.swift in Sources */,
 				5383E19E2AE9564100786F82 /* AppDelegate.swift in Sources */,
+				5383E1C32AEA141D00786F82 /* RepoTableViewCell.swift in Sources */,
 				5383E1B82AEA005100786F82 /* RepoModel.swift in Sources */,
 				5383E1B52AE9608600786F82 /* MainVC.swift in Sources */,
 				5383E1A02AE9564100786F82 /* SceneDelegate.swift in Sources */,
