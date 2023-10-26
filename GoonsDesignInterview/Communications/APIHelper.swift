@@ -46,7 +46,7 @@ class communicator{
     
     func searchRepo(keyword:String,completion:@escaping (Result<[Repo], Error>) -> Void){
         //Convert
-        let query = ["q":keyword]
+        let query = ["q":keyword,]
         
         doGet(url: url, queryParams: query) { data, response, error in
             if let error = error {

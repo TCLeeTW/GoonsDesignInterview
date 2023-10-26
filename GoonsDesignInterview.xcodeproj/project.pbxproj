@@ -17,6 +17,8 @@
 		5383E1BB2AEA062200786F82 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5383E1BA2AEA062200786F82 /* UIViewExtension.swift */; };
 		5383E1C02AEA105800786F82 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5383E1BF2AEA105800786F82 /* APIHelper.swift */; };
 		5383E1C32AEA141D00786F82 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5383E1C22AEA141D00786F82 /* RepoTableViewCell.swift */; };
+		5383E1C52AEA568C00786F82 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5383E1C42AEA568C00786F82 /* StringExtension.swift */; };
+		5383E1C72AEA9B6900786F82 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5383E1C62AEA9B6900786F82 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		5383E1BA2AEA062200786F82 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		5383E1BF2AEA105800786F82 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
 		5383E1C22AEA141D00786F82 /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
+		5383E1C42AEA568C00786F82 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		5383E1C62AEA9B6900786F82 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 		5383E1B92AEA060900786F82 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				5383E1C42AEA568C00786F82 /* StringExtension.swift */,
 				5383E1BA2AEA062200786F82 /* UIViewExtension.swift */,
 			);
 			path = Extensions;
@@ -101,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				5383E1B42AE9608600786F82 /* MainVC.swift */,
+				5383E1C62AEA9B6900786F82 /* DetailVC.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -196,6 +202,8 @@
 				5383E1BB2AEA062200786F82 /* UIViewExtension.swift in Sources */,
 				5383E19E2AE9564100786F82 /* AppDelegate.swift in Sources */,
 				5383E1C32AEA141D00786F82 /* RepoTableViewCell.swift in Sources */,
+				5383E1C52AEA568C00786F82 /* StringExtension.swift in Sources */,
+				5383E1C72AEA9B6900786F82 /* DetailVC.swift in Sources */,
 				5383E1B82AEA005100786F82 /* RepoModel.swift in Sources */,
 				5383E1B52AE9608600786F82 /* MainVC.swift in Sources */,
 				5383E1A02AE9564100786F82 /* SceneDelegate.swift in Sources */,
